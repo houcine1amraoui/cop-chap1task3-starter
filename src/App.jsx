@@ -22,7 +22,7 @@ function App() {
           </div>
         </div>
         <ul>
-          <li>
+          <li key={groceryItems[0].name}>
             <div className="container">
               <input
                 type="checkbox"
