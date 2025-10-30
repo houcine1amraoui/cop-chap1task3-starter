@@ -29,12 +29,7 @@ function App() {
                 value={groceryItems[0].completed}
                 checked={groceryItems[0].completed}
               />
-              <p>
-                {groceryItems[0].name}{" "}
-                {groceryItems[0].quantity > 1 && (
-                  <span>x{groceryItems[0].quantity}</span>
-                )}
-              </p>
+              <p>{groceryItems[0].name}</p>
             </div>
             <div>
               <button className="remove-button">X</button>
